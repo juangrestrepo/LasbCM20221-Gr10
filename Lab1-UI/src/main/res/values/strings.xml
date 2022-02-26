@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Labs20221-Gr10</string>
+    <string name="info">Información Personal</string>
+    <string name="nom">Nombre</string>
+    <string name="ape">Apellido</string>
+    <string name="sexo">Sexo</string>
+    <string name="h">Hombre</string>
+    <string name="m">Mujer</string>
+    <string name="naci">Fecha de Nacimiento</string>
+    <string name="grado">Grado de Escolaridad</string>
+
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Languages">
+        <item>Primaria</item>
+        <item>Secundaria</item>
+        <item>Universitaria</item>
+        <item>Otro</item>
+    </string-array>
+</resources>
