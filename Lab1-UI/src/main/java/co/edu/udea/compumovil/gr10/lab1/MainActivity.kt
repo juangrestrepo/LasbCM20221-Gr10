@@ -1,6 +1,7 @@
 package co.edu.udea.compumovil.gr10.lab1
 
 import android.app.DatePickerDialog
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -62,5 +63,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun cambiarFecha(view: android.view.View) {}
+    fun nextActivity(view: android.view.View) {
+        val intent = Intent(this, MainActivity2::class.java)
+        //intent.putExtra("key", value)
+        startActivity(intent)
+    }
 }
