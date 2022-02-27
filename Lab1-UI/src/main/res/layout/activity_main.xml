@@ -11,24 +11,11 @@
         android:layout_width="218dp"
         android:layout_height="23dp"
         android:layout_alignBottom="@id/txtGrado"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="72dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtFecha"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/txtGrado"
-        android:layout_width="218dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="124dp"
-        android:text="@string/grado"
-        android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.388"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/opciones_sexo"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -130,13 +117,12 @@
         android:id="@+id/btnCambiarFecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginBottom="144dp"
+        android:layout_marginStart="28dp"
         android:backgroundTint="#6573D5"
         android:text="@string/cambiar"
         app:iconTint="#C52525"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintStart_toEndOf="@+id/txtFecha" />
+        app:layout_constraintStart_toEndOf="@+id/txtFecha"
+        app:layout_constraintTop_toTopOf="@+id/txtFecha" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -190,9 +176,9 @@
         android:id="@+id/imageView8"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginEnd="12dp"
-        app:layout_constraintEnd_toStartOf="@+id/txtGrado"
-        app:layout_constraintTop_toTopOf="@+id/txtGrado"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/spinner"
+        app:layout_constraintTop_toTopOf="@+id/spinner"
         app:srcCompat="@drawable/graduacion" />
 
     <!--

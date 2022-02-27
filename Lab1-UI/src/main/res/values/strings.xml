@@ -21,7 +21,7 @@
     <string name="selected_item">Selected item:</string>
 
     <string-array name="Languages">
-        <item></item>
+        <item>Grado de Escolaridad</item>
         <item>Primaria</item>
         <item>Secundaria</item>
         <item>Universitaria</item>
