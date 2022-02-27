@@ -8,15 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Labs20221Gr10">
+        android:theme="@style/Theme.Labs20221Gr10"
+        android:configChanges="orientation|keyboardHidden"
+
+        >
         <activity
             android:name=".MainActivity2"
             android:exported="false"
             android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.Labs20221Gr10.NoActionBar" />
+            android:theme="@style/Theme.Labs20221Gr10.NoActionBar"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
