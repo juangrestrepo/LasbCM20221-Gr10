@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         val textView: TextView  = findViewById(R.id.txtFecha)
         val btn: Button = findViewById(R.id.btnCambiarFecha)
-        textView.text = "Fecha de Nacimiento"
+        textView.text = getString(R.string.nacido)
 
         var cal = Calendar.getInstance()
 

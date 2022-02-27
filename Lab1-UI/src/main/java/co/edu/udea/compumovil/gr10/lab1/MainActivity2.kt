@@ -35,11 +35,11 @@ class MainActivity2 : AppCompatActivity() {
         var email = findViewById<EditText>(R.id.editTextTextPersonName)
         var pais = findViewById<AutoCompleteTextView>(R.id.autoCompleteTextView)
         var ciudad = findViewById<AutoCompleteTextView>(R.id.autoCompleteTextView2)
-        Log.e("Télefono" ,  telefono.text.toString())
-        Log.e("Dirección", dirección.text.toString())
-        Log.e("Email", email.text.toString())
-        Log.e("País", pais.text.toString())
-        Log.e("Ciudad", ciudad.text.toString())
+        Log.e(getString(R.string.tel) ,  telefono.text.toString())
+        Log.e(getString(R.string.dir), dirección.text.toString())
+        Log.e(getString(R.string.email), email.text.toString())
+        Log.e(getString(R.string.pais), pais.text.toString())
+        Log.e(getString(R.string.ciudad), ciudad.text.toString())
 
     }
 

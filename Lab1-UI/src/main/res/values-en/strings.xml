@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Labs20221-Gr10</string>
+    <string name="info">Personal Information</string>
+    <string name="nom">Name</string>
+    <string name="ape">Last Name</string>
+    <string name="sexo">Sex</string>
+    <string name="h">Male</string>
+    <string name="m">Female</string>
+    <string name="nacido">Birth Date</string>
+    <string name="grado">Scholarship</string>
+    <string name="siguiente">Next</string>
+    <string name="cambiar">Change</string>
+    <string name="info2">Contact Information</string>
+    <string name="tel">Phone</string>
+    <string name="email">Email</string>
+    <string name="dir">Address</string>
+    <string name="pais">Country</string>
+    <string name="ciudad">City</string>
+    <string name="nacio">Birthday</string>
+
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Languages">
+    <item></item>
+    <item>Primary</item>
+    <item>HighSchool</item>
+    <item>University</item>
+    <item>Other</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -6,7 +6,7 @@
     <string name="sexo">Sexo</string>
     <string name="h">Hombre</string>
     <string name="m">Mujer</string>
-    <string name="naci">Fecha de Nacimiento</string>
+    <string name="nacido">Fecha de Nacimiento</string>
     <string name="grado">Grado de Escolaridad</string>
     <string name="siguiente">Siguiente</string>
     <string name="cambiar">Cambiar</string>
@@ -16,7 +16,7 @@
     <string name="dir">Dirección</string>
     <string name="pais">País</string>
     <string name="ciudad">Ciudad</string>
-    <string name="nacio">Nació en</string>
+    <string name="nacio">Birthday</string>
 
     <string name="selected_item">Selected item:</string>
 

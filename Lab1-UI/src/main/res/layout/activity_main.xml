@@ -8,11 +8,14 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="218dp"
+        android:layout_height="23dp"
         android:layout_alignBottom="@id/txtGrado"
-        app:layout_constraintStart_toEndOf="@+id/txtGrado"
-        app:layout_constraintTop_toTopOf="@+id/txtGrado"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFecha"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -102,22 +105,22 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
             android:checked="false"
-            android:text="Masculino" />
+            android:text="@string/h" />
 
         <RadioButton
             android:id="@+id/radio_femenino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="Femenino" />
+            android:text="@string/m" />
     </RadioGroup>
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="72dp"
         android:onClick="nextActivity"
         android:text="@string/siguiente"
         app:layout_constraintEnd_toEndOf="parent"
@@ -150,7 +153,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
         android:layout_marginTop="52dp"
-        android:text="@string/naci"
+        android:text="@string/nacido"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSexo" />
