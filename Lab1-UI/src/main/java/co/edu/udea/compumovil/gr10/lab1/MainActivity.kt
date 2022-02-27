@@ -1,9 +1,12 @@
 package co.edu.udea.compumovil.gr10.lab1
 
+import android.app.DatePickerDialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
+import java.text.SimpleDateFormat
+import java.util.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -25,9 +28,7 @@ class MainActivity : AppCompatActivity() {
                 AdapterView.OnItemSelectedListener {
                 override fun onItemSelected(parent: AdapterView<*>,
                                             view: View, position: Int, id: Long) {
-                    Toast.makeText(this@MainActivity,
-                        getString(R.string.selected_item) + " " +
-                                "" + languages[position], Toast.LENGTH_SHORT).show()
+
                 }
 
                 override fun onNothingSelected(parent: AdapterView<*>) {
@@ -35,5 +36,31 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+        val textView: TextView  = findViewById(R.id.textViewDate)
+        val btn: Button = findViewById(R.id.btnCambiarFecha)
+        textView.text = "Fecha de Nacimiento"
+
+        var cal = Calendar.getInstance()
+
+        val dateSetListener = DatePickerDialog.OnDateSetListener { view, year, monthOfYear, dayOfMonth ->
+            cal.set(Calendar.YEAR, year)
+            cal.set(Calendar.MONTH, monthOfYear)
+            cal.set(Calendar.DAY_OF_MONTH, dayOfMonth)
+
+            val myFormat = "dd.MM.yyyy" // mention the format you need
+            val sdf = SimpleDateFormat(myFormat, Locale.US)
+            textView.text = sdf.format(cal.time)
+
+        }
+
+        btn.setOnClickListener {
+            DatePickerDialog(this@MainActivity, dateSetListener,
+                cal.get(Calendar.YEAR),
+                cal.get(Calendar.MONTH),
+                cal.get(Calendar.DAY_OF_MONTH)).show()
+        }
     }
+
+    fun cambiarFecha(view: android.view.View) {}
 }

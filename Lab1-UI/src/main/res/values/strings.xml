@@ -8,6 +8,8 @@
     <string name="m">Mujer</string>
     <string name="naci">Fecha de Nacimiento</string>
     <string name="grado">Grado de Escolaridad</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="cambiar">Cambiar</string>
 
     <string name="selected_item">Selected item:</string>
 
