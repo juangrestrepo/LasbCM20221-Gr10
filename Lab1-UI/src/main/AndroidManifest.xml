@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Labs20221Gr10"
-        android:configChanges="orientation|keyboardHidden"
+        android:configChanges="screenSize|keyboardHidden"
 
         >
         <activity
@@ -17,11 +17,11 @@
             android:exported="false"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.Labs20221Gr10.NoActionBar"
-            android:configChanges="orientation|keyboardHidden|screenSize"/>
+            android:configChanges="keyboardHidden|screenSize"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:configChanges="orientation|keyboardHidden|screenSize">
+            android:configChanges="keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

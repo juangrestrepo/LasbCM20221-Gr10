@@ -3,14 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Downloads/LasbCM20221-Gr10-master/LasbCM20221-Gr10-master/Lab1-UI/src/main/res/layout/activity_main.xml" value="0.2694746376811594" />
-        <entry key="..\:/Downloads/LasbCM20221-Gr10-master/LasbCM20221-Gr10-master/Lab1-UI/src/main/res/layout/activity_main2.xml" value="0.2694746376811594" />
-        <entry key="..\:/Downloads/LasbCM20221-Gr10-master/LasbCM20221-Gr10-master/Lab1-UI/src/main/res/layout/contactdataactivity.xml" value="0.26313405797101447" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Labs20221Gr10/Lab1-UI/src/main/res/layout-land/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Labs20221Gr10/Lab1-UI/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/disco portatil 5 gigas/Mis Documentos/AndroidStudioProjects/LasbCM20221-Gr10-master/Lab1-UI/src/main/res/layout/activity_main.xml" value="0.25679347826086957" />
-        <entry key="..\:/disco portatil 5 gigas/Mis Documentos/AndroidStudioProjects/LasbCM20221-Gr10-master/Lab1-UI/src/main/res/layout/contactdataactivity.xml" value="0.25679347826086957" />
-        <entry key="..\:/disco portatil 5 gigas/Mis Documentos/AndroidStudioProjects/descargado/Lab1-UI/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/disco portatil 5 gigas/Mis Documentos/AndroidStudioProjects/descargado/Lab1-UI/src/main/res/layout/contactdataactivity.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Labs20221Gr10/Lab1-UI/src/main/res/layout/activity_main2.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Labs20221Gr10/Lab1-UI/src/main/res/layout/activity_main3.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Labs20221Gr10/Lab1-UI/src/main/res/layout/contactdataactivity.xml" value="0.18614130434782608" />
       </map>
     </option>
   </component>

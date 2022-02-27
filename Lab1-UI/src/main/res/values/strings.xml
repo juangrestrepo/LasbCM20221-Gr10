@@ -10,10 +10,12 @@
     <string name="grado">Grado de Escolaridad</string>
     <string name="siguiente">Siguiente</string>
     <string name="cambiar">Cambiar</string>
+    <string name="nacio">Nació en</string>
 
     <string name="selected_item">Selected item:</string>
 
     <string-array name="Languages">
+        <item></item>
         <item>Primaria</item>
         <item>Secundaria</item>
         <item>Universitaria</item>
