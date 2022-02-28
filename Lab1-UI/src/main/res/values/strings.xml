@@ -17,7 +17,16 @@
     <string name="pais">País</string>
     <string name="ciudad">Ciudad</string>
     <string name="nacio">Birthday</string>
-
+    <string name="seleccionesex">Seleccione sexo</string>
+    <string name="escribanombre">No ha escrito nombre</string>
+    <string name="escribaapellido">No ha escrito nombre</string>
+    <string name="seleccionegrado">Seleccione un grado</string>
+    <string name="escribatelefono">No has escrito un telefono</string>
+    <string name="escribadireccion">No has escrito una direccion</string>
+    <string name="escribaemail">No has escrito un email</string>
+    <string name="copiarpais">No has escrito un pais</string>
+    <string name="copiarciudad">No has escrito una ciudad</string>
+    <string name="no_nacido">Ingresa la fecha de nacimiento</string>
     <string name="selected_item">Selected item:</string>
 
     <string-array name="Languages">

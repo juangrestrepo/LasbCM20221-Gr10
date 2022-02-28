@@ -79,13 +79,49 @@ class MainActivity : AppCompatActivity() {
             sexo = getString(R.string.h)
         }
 
-        Log.e("a",getString(R.string.info))
-        Log.e("a",nombre.text.toString()+" "+apellido.text.toString())
-        if(sexo != ""){
-            Log.e("a",sexo)
+        // validaciones de los campos de texto en donde saca mensaje por medio de toats
+
+        if(!sexo_fem.isChecked && !sexo_mas.isChecked){
+            Toast.makeText(applicationContext, getString(R.string.seleccionesex), Toast.LENGTH_SHORT).show()
+            return
         }
-        Log.e("a",getString(R.string.nacio)+" "+fecha.text.toString())
-        if(grado.selectedItem.toString() != ""){
+
+
+        if (nombre.text.trim().isEmpty()) {
+
+            Toast.makeText(applicationContext, getString(R.string.escribanombre), Toast.LENGTH_SHORT).show()
+            nombre.requestFocus()
+            return
+        }
+        if (apellido.text.trim().isEmpty()) {
+            Toast.makeText(applicationContext, "no has copiado apellido ", Toast.LENGTH_SHORT)
+                .show()
+            Toast.makeText(applicationContext, getString(R.string.escribaapellido), Toast.LENGTH_SHORT).show()
+            apellido.requestFocus()
+            return
+        }
+
+        if (fecha.text.trim().isEmpty() || fecha.text.trim() == getString(R.string.nacido)) {
+            Toast.makeText(applicationContext, getString(R.string.no_nacido), Toast.LENGTH_SHORT).show()
+
+            return
+        }
+
+        if(grado.selectedItemPosition == 0 ){
+            Toast.makeText(applicationContext, getString(R.string.seleccionegrado), Toast.LENGTH_SHORT).show()
+
+            grado.requestFocus()
+            return
+        }
+
+//muestra en la terminal logcat la informacion ingresada por el usuario
+        Log.e("a", getString(R.string.info))
+        Log.e("a", nombre.text.toString() + " " + apellido.text.toString())
+        if (sexo != "") {
+            Log.e("a", sexo)
+        }
+        Log.e("a", getString(R.string.nacio) + " " + fecha.text.toString())
+        if (grado.selectedItem.toString() != "") {
             Log.e("a", grado.selectedItem.toString())
         }
 

@@ -18,9 +18,17 @@
     <string name="pais">Country</string>
     <string name="ciudad">City</string>
     <string name="nacio">Birthday</string>
-
+    <string name="no_nacido">Select your birthdate</string>
     <string name="selected_item">Selected item:</string>
-
+    <string name="seleccionesex">Select your generate</string>
+    <string name="escribanombre">Write your Name</string>
+    <string name="escribaapellido">Write your Last Name</string>
+    <string name="seleccionegrado">Select a school grade</string>
+    <string name="escribatelefono">You have not written a phone</string>
+    <string name="escribadireccion">You have not written an address</string>
+    <string name="escribaemail">You have not written a email</string>
+    <string name="copiarpais">You have not written a Country</string>
+    <string name="copiarciudad">You have not written a City</string>
     <string-array name="Languages">
     <item></item>
     <item>Primary</item>
