@@ -19,7 +19,7 @@
     <string name="nacio">Birthday</string>
     <string name="seleccionesex">Seleccione sexo</string>
     <string name="escribanombre">No ha escrito nombre</string>
-    <string name="escribaapellido">No ha escrito nombre</string>
+    <string name="escribaapellido">No ha escrito apellido</string>
     <string name="seleccionegrado">Seleccione un grado</string>
     <string name="escribatelefono">No has escrito un telefono</string>
     <string name="escribadireccion">No has escrito una direccion</string>
