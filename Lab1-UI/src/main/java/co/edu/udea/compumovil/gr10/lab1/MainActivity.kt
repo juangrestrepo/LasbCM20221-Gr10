@@ -93,8 +93,6 @@ class MainActivity : AppCompatActivity() {
             return
         }
         if (apellido.text.trim().isEmpty()) {
-            Toast.makeText(applicationContext, "no has copiado apellido ", Toast.LENGTH_SHORT)
-                .show()
             Toast.makeText(applicationContext, getString(R.string.escribaapellido), Toast.LENGTH_SHORT).show()
             apellido.requestFocus()
             return
